@@ -1,15 +1,15 @@
-package ar.com.ada.api.martes258challenges.entities;
+package ar.com.ada.api.NOAA.entities;
 
 public class Device {
 
-    public enum DeviseStatusEnum {
+    public enum DeviceStatusEnum {
 
         HUNDIDA(-1), A_NIVEL(0), SOBRE_NIVEL(1), ALERTA_KAIJU(99), ALERTA_IMPACTO(999);
 
         private final Integer value;
 
         // NOTE: Enum constructor tiene que estar en privado
-        private DeviseStatusEnum(Integer value) {
+        private DeviceStatusEnum(Integer value) {
             this.value = value;
         }
 
@@ -17,9 +17,9 @@ public class Device {
             return value;
         }
 
-        public static DeviseStatusEnum parse(Integer id) {
-            DeviseStatusEnum status = null;   // Default
-            for (DeviseStatusEnum item : DeviseStatusEnum.values()) {
+        public static DeviceStatusEnum parse(Integer id) {
+            DeviceStatusEnum status = null;   // Default
+            for (DeviceStatusEnum item : DeviceStatusEnum.values()) {
                 if (item.getValue().equals(id)) {
                     status = item;
                     break;

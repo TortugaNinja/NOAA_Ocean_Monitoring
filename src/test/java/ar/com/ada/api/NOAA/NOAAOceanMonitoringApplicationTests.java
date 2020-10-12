@@ -1,10 +1,10 @@
-package ar.com.ada.api.martes258challenges;
+package ar.com.ada.api.NOAA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Martes258challengesApplicationTests {
+class NOAAOceanMonitoringApplicationTests {
 
 	@Test
 	void contextLoads() {

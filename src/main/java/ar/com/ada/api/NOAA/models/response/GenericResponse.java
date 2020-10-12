@@ -1,4 +1,4 @@
-package ar.com.ada.api.martes258challenges.models.response;
+package ar.com.ada.api.NOAA.models.response;
 
 public class GenericResponse {
 
